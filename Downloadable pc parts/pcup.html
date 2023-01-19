@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <script defer src="app.js">
+  </script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Prompt&display=swap" rel="stylesheet">     
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Prompt', sans-serif;
+            color: white;
+            background: black;
+        }
+        section {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          min-height: 150px;
+          align-items: center;
+        }
+        .header{
+          font-size: 5.5rem;
+          margin-bottom: 3.5rem;
+
+        }
+        .header-minor{
+          font-size: 2.5rem;
+        }
+        .header-minore{
+          font-size: 3rem;
+        }
+        .header-below{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10mm;
+          font-style: bold;
+          margin-bottom: .25mm;
+        }
+        .section-margin{
+          margin-bottom: 1.5rem;
+        }
+        .imgcls{
+          
+          display: flex;
+          flex-direction: column;
+          min-height: 450px;
+          margin: block;
+          margin-right: auto;
+          margin-left: auto;
+
+        }
+        .section-buffer{
+          margin-top: 8.5rem;
+        }
+        .hidden {
+            opacity: 0;
+            transform: translate(-100%);
+            filter: blur(5px);
+            transition: all 1.5s;
+        }
+        .show {
+          opacity: 1;
+          filter: blur(0);
+          transform: translateX(0);
+        }
+        .paragraph{
+          font-size: 1.25rem;
+        }
+        .paragraphe{
+          font-size: 2.2rem;
+          margin-left: 2rem;
+          margin-right: 2rem;
+        }
+        .section-background {
+          background-image: url(https://cdn.mos.cms.futurecdn.net/U5Fdom8yDwVcEivFjiqajF-1200-80.jpg);
+          min-height: 40rem;
+          color: white;
+        }
+        .section-bufferbu{
+          margin-top: 25rem;
+        }
+        .paragraphback {
+          background-color: black;
+        }
+        .reviews{
+          font-size: 3.5rem;
+        }
+        .dis{
+          font-size: .5rem;
+        }
+    </style>
+  </head>
+  
+  <body>
+    <main>
+        
+        <section class="hidden">
+            <p class="header hidden">Downloadable PC Parts!</p>
+            <p class="header-below"> Fast, Quick, EASY.</p>
+        </section>
+        <img class="imgcls hidden" src ="https://i.pinimg.com/originals/3b/bf/17/3bbf17b81886facf27cb5d06a5e24cff.jpg"/>
+        <section class="section-buffer section-background">
+          <h1 class="header-minor hidden paragraphback">Now Only 6800 Dollars for a Premium Membership </h1>
+          <p class = "paragraph hidden section-bufferbu paragraphback">Get our premium downloadable pc parts for a small memebership fee of 6,800 Dollars. Our PC parts are easy to download and are not a scam or virus(see legal disclaimer at bottom). Everybody loves our PC Parts, Just look art all the reviews below!</p>
+      </section>
+      <section class = "section-buffer">
+        
+        <p class="reviews hidden">| My PC Ran Really slow after I installed this 2/5 - Ryan | </p>
+        <p class="reviews hidden"> | My PC parts never came and im out 6800 dollars 1/5 - Emmet | </p>
+        <p class="reviews hidden">| THIS IS A SCAM/VIRUS DO NOT BUY 1/5 -Samuel | </p>
+        <p class="reviews hidden">| This does not work do not buy it -George | </p>
+      </section>
+      <section class = "hidden section-bufferbu">
+        <h1 class="header-minore">Download Your PC Parts Now!</h1>
+        <p class="paragraphe">So why waste time get your PC parts today! We are the best service for downloading any PC parts and you should sign up today. </p>
+      </section>
+      <section class = "hidden section-bufferbu">
+        <p class = "dis">DownloadablePCparts.com is not responsible or liable for any damage to your PC, harm to ones being. DownloadablePCparts.com is has the right to sell, disclose, leak, view, or alter your data at anytime. DownloadablePCparts.com and its subsideries can and will sell PII. This application is not responsible for any kind of backdoor application. DownloadablePCparts.com may cause your pc to run slower or perform at a decreased performance. </p>
+      </section>
+       
+    </main>
+  </body>
+</html>
